@@ -2,7 +2,7 @@
 define(
 	function()
 	{
-		var values = { };
+		var values = {};
 		var is_initialized = false;
 		var signals;
 		var controls;

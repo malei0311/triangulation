@@ -126,9 +126,11 @@ define(
 				ctx.lineTo( triangle.c.x, triangle.c.y );
 				ctx.lineTo( triangle.a.x, triangle.a.y );
 
-				ctx.fillStyle = triangle.color;
-				ctx.fill();
 				ctx.closePath();
+				ctx.fillStyle = triangle.color;
+				ctx.strokeStyle = triangle.color;
+				ctx.fill();
+				ctx.stroke();
 			}
 		}
 

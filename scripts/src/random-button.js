@@ -44,7 +44,7 @@ define(
 
 		function getConstraints( controls )
 		{
-			var result = { };
+			var result = {};
 			var control;
 
 			for ( var i = 0, len = controls.length; i < len; i++ )

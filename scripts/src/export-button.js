@@ -76,6 +76,7 @@ define(
 				svg += '<polygon ';
 				svg += 'points="' + points.join( ' ' ) + '" ';
 				svg += 'fill="' + triangle.color + '" ';
+				svg += 'stroke="' + triangle.color + '" ';
 				svg += '/>';
 			}
 

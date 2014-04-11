@@ -12,7 +12,7 @@ define(
 		function test( success, error )
 		{
 			var required_supported = true;
-			var results = { };
+			var results = {};
 			var required_features_missing = [ ];
 
 			for ( var key in tests )
